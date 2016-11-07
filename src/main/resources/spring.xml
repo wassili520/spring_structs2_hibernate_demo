@@ -9,6 +9,6 @@
       
     <context:property-placeholder location="classpath:config.properties"/>  
     <!-- 扫描service自动注入为bean -->  
-    <context:component-scan base-package="org.andy.shop.service.impl,org.andy.shop.dao.impl" />  
+    <context:component-scan base-package="org.wassili.shop.service.impl,org.wassili.shop.dao.impl" />  
   
 </beans>  
